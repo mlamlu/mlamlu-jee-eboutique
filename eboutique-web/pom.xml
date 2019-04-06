@@ -5,19 +5,16 @@
   <artifactId>eboutique-web</artifactId>
   <packaging>war</packaging>
   <name>business Maven Webapp</name>
+  <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <properties>
     <spring.version>5.1.4.RELEASE</spring.version>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
   </properties>
-  <!-- 
-  <parent>
-    <groupId>fr.epsi.eboutique</groupId>
-    <artifactId>eboutique-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-   -->
+  
+   <groupId>fr.epsi.eboutique</groupId>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
